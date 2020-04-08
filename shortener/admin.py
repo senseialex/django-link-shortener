@@ -17,4 +17,4 @@ class UrlMapResource(resources.ModelResource):
 class documentosAdmin(ImportExportModelAdmin):
     resource_class = UrlMapResource
     list_display = ('user', 'full_url',)
-    search_fields = ('full_url',)
+    search_fields = ('full_url', 'short_url',)
