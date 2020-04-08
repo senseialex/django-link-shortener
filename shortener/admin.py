@@ -4,7 +4,7 @@ from import_export.admin import ImportExportModelAdmin
 from import_export import resources
 
 # Register your models here.
-admin.site.register(UrlMap)
+# admin.site.register(UrlMap)
 admin.site.register(UrlProfile)
 
 
